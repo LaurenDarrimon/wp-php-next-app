@@ -1,0 +1,23 @@
+[
+    {
+        "name":"Gandalf",
+        "email":"mithrandir@whitewizard.org",
+        "job":"White Wizard",
+        "age":2000,
+        "id":1
+    },
+    {
+        "name":"Aragorn",
+        "email":"aragorn@whitecity.gov",
+        "job":"king",
+        "age":85,
+        "id":2
+    },
+    {
+        "name":"Samwise Gamgee",
+        "email":"sam@theshire.gov",
+        "job":"gardener",
+        "age":45,
+        "id":3
+    }
+]

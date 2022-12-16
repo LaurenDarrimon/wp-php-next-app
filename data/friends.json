@@ -1,0 +1,29 @@
+[
+    {
+        "name":"Gandalf",
+        "id":1,
+        "friends":
+        [
+            {"friendName":"Samwise Gamgee", "friendId":"3"},
+            {"friendName":"Aragorn", "friendId":"2"}
+        ]
+    },
+    {
+        "name":"Aragorn",
+        "id":2,
+        "friends":
+        [
+            {"friendName":"Gandalf", "friendId":"1"},
+            {"friendName":"Samwise", "friendId":"3"}
+        ]
+    },
+    {
+        "name":"Samwise Gamgee",
+        "id":3,
+        "friends":
+        [
+            {"friendName":"Gandalf", "friendId":"1"},
+            {"friendName":"Aragorn", "friendId":"2"}
+        ]
+    }
+]
