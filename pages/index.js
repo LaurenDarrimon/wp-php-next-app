@@ -7,7 +7,7 @@ import { getOrderedList } from '../lib/data';
 import styles from '../styles/Home.module.css'
 
 export async function getStaticProps() {
-  const allPeople = getOrderedList();
+  const allPeople = await getOrderedList();
   return{
     props: {
       allPeople
@@ -19,14 +19,14 @@ export default function Home({ allPeople }) {
   return (
     <Layout home>
       <h1 className={styles.title}>
-        Welcome to Middle Earth Socials
+        Yar Welcome to the Pirate Blog 
       </h1>
 
       <p className={styles.description}>
-        Virtual gathering for all the free peoples of middle earth.
+        Yo ho!  A pirates life for me. 
       </p>
 
-      <h2>Find Hobbits, Dwarves, Elves, Men, Wizards, and more!</h2>
+      <h2>Content used with love from <a href="https://pirateipsum.me/"> PirateIpsum.me </a></h2>
 
       <div className="list-group">
         {allPeople.map(({ id, name}) => (
